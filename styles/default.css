@@ -1,0 +1,119 @@
+html {
+    font-size: 1.2em;
+    background-color: #F8F1D7;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    /* A note on transitions:
+     * using the property 'transition', won't work, so we have to defined
+     * each subproperty individually and for each property.
+     * We also need to declare these on all elements that need transitions
+     * as transitions are not inherited
+     */
+    transition-property: color, background-color;
+    transition-duration: 2s, 2s;
+    transition-timing-function: linear, linear
+}
+
+body {
+    margin: 0;
+    padding: 1%;
+}
+
+#header {
+    height: 2em;
+}
+
+#copyrightNote {
+    float: left;
+}
+
+#muteButtons {
+    float: right;
+}
+
+#mute {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#gameView {
+    min-width: 300px;
+    max-width: 800px;
+    width: 90%;
+    min-height: 300px;
+    border: 1px solid #000;
+    margin: 2em auto;
+    padding: 5px;
+    box-shadow: 4px 4px 5px 3px #E0D4C1;
+    border-radius: 10px;
+    background-color: #FFEFC2;
+    transition-property: background-color, box-shadow;
+    transition-duration: 2s, 2s;
+    transition-timing-function: linear, linear;
+}
+
+#sceneDescription {
+    min-height: 300px;
+}
+
+.sceneImage {
+    float: right;
+    width: 100px;
+    max-width: calc(100% - 10px);
+    border: 5px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 0 5px 10px;
+}
+
+.sceneImage:hover {
+    width: auto;
+}
+
+.optionList {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.option {
+    cursor: pointer;
+}
+
+.option span {
+    border-radius: 3px;
+}
+
+.option:before {
+    content: '→ ';
+}
+
+.option:hover span {
+    background-color: #E0D4C1;
+}
+
+.credits {
+    min-width: 300px;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.creditsTitle {
+    font-weight: bold;
+}
+
+.expand {
+    margin-left: 15px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.creditAttributions {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

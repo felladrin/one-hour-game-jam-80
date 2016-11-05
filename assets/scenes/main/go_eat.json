@@ -1,0 +1,11 @@
+{
+  "name": "Going to eat",
+  "description": "You head to the kitchen and find a cake on the table!!<br/><br/>Oh, no... It was just your imagination.<br/><br/><strong>The cake is a lie!</strong>",
+  "color_scheme": "bloody",
+  "options": [
+    {
+      "text": "Go back in time",
+      "proceed": "intro"
+    }
+  ]
+}

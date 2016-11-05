@@ -1,0 +1,10 @@
+{
+  "name": "Visiting the Twitch",
+  "description": "You access <a href='https://www.twitch.tv/bitslap' target='_blank'>twitch.tv/bitslap</a> and start watching the gameplays.<br/><br/><strong>THE END!</strong>",
+  "options": [
+    {
+      "text": "Go back in time",
+      "proceed": "intro"
+    }
+  ]
+}

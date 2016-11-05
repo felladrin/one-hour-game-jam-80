@@ -1,0 +1,10 @@
+{
+  "name": "Going to bed",
+  "description": "You jump into bed to sleep.<br/><br/><strong>THE END!</strong>",
+  "options": [
+    {
+      "text": "Go back in time",
+      "proceed": "intro"
+    }
+  ]
+}

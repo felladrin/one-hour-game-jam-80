@@ -1,0 +1,22 @@
+{
+  "name": "Publishing the Game",
+  "description": "You've made it! An entire (silly) game in One Hour! You quickly zip and publish it on <a href='https://itch.io/' target='_blank'>itch.io</a>. Congratulations, you've just made the world a better place! Now you can relax and do whatever you want.",
+  "options": [
+    {
+      "text": "Go to One Hour Game Jam website to check out the other games",
+      "proceed": "main/visit_website"
+    },
+    {
+      "text": "Go to bitslap's twitch channel to watch the gameplays",
+      "proceed": "main/visit_twitch"
+    },
+    {
+      "text": "Go eat some real food",
+      "proceed": "main/go_eat"
+    },
+    {
+      "text": "Go back to the bed",
+      "proceed": "main/go_bed"
+    }
+  ]
+}

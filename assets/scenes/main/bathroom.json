@@ -1,0 +1,14 @@
+{
+  "name": "The Bathroom",
+  "description": "You quickly wash your face and think it's a good opportunity to brush your teeth.",
+  "options": [
+    {
+      "text": "Brush your teeth, then run to the computer.",
+      "proceed": "main/computer"
+    },
+    {
+      "text": "Ignore the idea, knowing your can do this after the jam, then run to the computer.",
+      "proceed": "main/computer"
+    }
+  ]
+}

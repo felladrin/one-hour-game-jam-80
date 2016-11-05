@@ -1,0 +1,14 @@
+{
+  "name": "The kitchen",
+  "description": "In the kitchen you open the refrigerator and get a soda and a two-days-old piece of pizza.",
+  "options": [
+    {
+      "text": "Quickly eat and drink, then run to the computer",
+      "proceed": "main/computer"
+    },
+    {
+      "text": "Leave it, realizing it's better to eat only after the Jam, then run to the computer",
+      "proceed": "main/computer"
+    }
+  ]
+}

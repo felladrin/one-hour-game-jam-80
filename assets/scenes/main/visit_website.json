@@ -1,0 +1,10 @@
+{
+  "name": "Visiting the Website",
+  "description": "You access <a href='http://onehourgamejam.com' target='_blank'>onehourgamejam.com</a> and start playing the other published games.<br/><br/><strong>THE END!</strong>",
+  "options": [
+    {
+      "text": "Go back in time",
+      "proceed": "intro"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Computer",
+  "description": "You click the keyboard to wake up the computer. Four seconds and it's ready.<br/>You head to <a href='http://onehourgamejam.com' target='_blank'>onehourgamejam.com</a> to get the theme.<br/>Good, it has just been revealed: 'Text Based / Text For Graphics'.<br/>You open your favorite code editor and start creating a game about:",
+  "options": [
+    {
+      "text": "A game developer participating on an one-hour game jam",
+      "proceed": "main/publish_game"
+    },
+    {
+      "text": "A MUD based on random ideas from MUDs you've played",
+      "proceed": "main/publish_game"
+    },
+    {
+      "text": "An arcade game where you break candy for the mega-bonus",
+      "proceed": "main/publish_game"
+    },
+    {
+      "text": "A turn-based strategy game where you wage war on heaven.",
+      "proceed": "main/publish_game"
+    },
+    {
+      "text": "A shooting game where you ride bikes with zombies with guns",
+      "proceed": "main/publish_game"
+    },
+    {
+      "text": "A tycoon game where you copy-paste plants to make a business",
+      "proceed": "main/publish_game"
+    }
+  ]
+}
